@@ -68,12 +68,6 @@ app.get('/weather',(req,res) => {
             })
         })
     })
-
-    // res.send({
-    //     forecast: 'rainy',
-    //     location: 'Karachi',
-    //     address: req.query.address
-    // })
 })
 
 //Only single res is allowed
